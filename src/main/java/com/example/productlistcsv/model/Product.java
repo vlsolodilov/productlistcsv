@@ -13,7 +13,6 @@ import java.io.Serializable;
 @AllArgsConstructor
 public class Product implements Serializable {
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Integer id;
 
   @Column(name = "name", nullable = false)

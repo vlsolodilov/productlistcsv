@@ -8,6 +8,6 @@ import java.time.LocalDate;
 @Data
 @AllArgsConstructor
 public class DateFrequencyTo {
-  private LocalDate datetime;
+  private LocalDate date;
   private Integer frequency;
 }

@@ -1,4 +1,4 @@
-INSERT INTO product (id, name)
+/*INSERT INTO product (id, name)
 VALUES (1, 'Product 1'),
        (2, 'Product 2'),
        (3, 'Product 3');
@@ -9,4 +9,4 @@ VALUES (1, 10, '2022-03-14', 1),
        (3, 30, '2022-03-14', 3),
        (4, 12, now(), 1),
        (5, 22, now(), 2),
-       (6, 33, now(), 3);
+       (6, 33, now(), 3);*/

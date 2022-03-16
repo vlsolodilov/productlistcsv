@@ -17,7 +17,6 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class ProductPrice implements Serializable {
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Integer id;
 
   @Column(name = "price", nullable = false)

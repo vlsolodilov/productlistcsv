@@ -29,8 +29,8 @@ public class ScheduledTasks {
     }
 
     @Scheduled(cron = "${cron}")
-    public void reportCurrentTime() {
-        log.info(dir);
+    public void importCsv() {
+        log.info("Import csv files:");
         try {
             CsvUtil.csvToDB(dir, productRepository, productPriceRepository);
         } catch (IOException e) {
